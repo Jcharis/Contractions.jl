@@ -1,0 +1,13 @@
+name = "Contractions"
+uuid = "65310176-fb50-4fdd-a3a8-d2d5660df5c1"
+authors = ["JCharis <jcharistech.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.5.3"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
