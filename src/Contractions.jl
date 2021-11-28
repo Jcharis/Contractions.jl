@@ -10,6 +10,11 @@ fix_contractions: Fix Contractions in a given text
 params:
 ------
 	- text:: AbstractString , given text
+
+usage:
+------
+    >>> fix_contractions(mytext)
+
 """
 function fix_contractions(text::AbstractString)
     text = replace.(text,"ain't"=>"am not")

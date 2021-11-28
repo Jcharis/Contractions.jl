@@ -42,3 +42,12 @@ Contractions.jl is very simple to use. It is easy as this
 he will be there, if not I cannot
 
 ```
+
+Alternatively
+```julia
+>>> using Contractions
+>>> docx1 = "he'll be there, if not I can't"
+>>> Contractions.fix_contractions(docx1)
+he will be there, if not I cannot
+
+```
